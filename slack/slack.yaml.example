@@ -24,4 +24,4 @@ spec:
         secretRef: webhook-url
   secrets:
   - name: webhook-url
-    value: projects/example-project/secrets/example-slack-notifier-webhook-url/versions/latest
+    value: projects/anita-test-265821/secrets/notifications/versions/latest
