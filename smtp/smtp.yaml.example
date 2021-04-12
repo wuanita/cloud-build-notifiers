@@ -22,10 +22,11 @@ spec:
     delivery:
       server: smtp.gmail.com
       port: '587'
-      sender: example-sender@gmail.com
+      sender: notifierstest@gmail.com
       from: notifierstest@gmail.com
       recipients:
       - anitawu@google.com
+      - notifierstest@gmail.com
       password:
         secretRef: smtp-notifiers-gmail-password
   secrets:
